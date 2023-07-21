@@ -1,0 +1,29 @@
+# Project information
+site_name: Classy Style Guide
+
+extra_css:
+  - stylesheets/extra.css
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotaion
+    - content.code.copy
+  palette:
+    - scheme: classy
+      primary: custom
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: classy
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
