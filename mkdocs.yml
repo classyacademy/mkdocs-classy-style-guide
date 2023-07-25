@@ -29,7 +29,18 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-# Page tree
+  # Extensions
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
+
+
 nav:
   - Home: index.md
   - Words:

@@ -3,3 +3,15 @@
   --md-primary-fg-color--light: #ecb7b7;
   --md-primary-fg-color--dark: #90030c;
 }
+
+.md-content__inner {
+  max-width: 70ch;
+}
+
+.do {
+  color: green;
+}
+
+.dont {
+  color: red;
+}
