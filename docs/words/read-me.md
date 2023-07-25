@@ -1,8 +1,4 @@
-# Classy Style Guide
-
-For full documentation visit [our help center](https://support.classy.org/s/).
-
-## Read me
+# Read me
 
 This style guide / content design system is under construction.
 

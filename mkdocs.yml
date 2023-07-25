@@ -1,17 +1,18 @@
 # Project information
-site_name: Classy Style Guide
-
+site_name: Classy style guide
 extra_css:
   - stylesheets/extra.css
 
 # Configuration
 theme:
   name: material
+  logo: https://learn.classy.org/rs/673-DCU-558/images/logo-badge_indigo.png
+  favicon: https://learn.classy.org/rs/673-DCU-558/images/logo-badge_indigo.png
+
   features:
-    - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -23,7 +24,23 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: classy
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+# Page tree
+nav:
+  - Home: index.md
+  - Words:
+      - Read me: words/read-me.md
+      - Voice and tone: words/voice-and-tone.md
+      - Product names: words/product-names.md
+      - Word list: words/word-list.md
+  - Grammar and mechanics:
+      - General: grammar-and-mechanics/general.md
+      - Formatting: grammar-and-mechanics/formatting.md
+      - Punctuation: grammar-and-mechanics/punctuation.md
+      - People, places, & things: grammar-and-mechanics/people-places-things.md
+      - Numbers, dates, & times: grammar-and-mechanics/numbers-dates-times.md
+      - Symbols: grammar-and-mechanics/symbols.md
